@@ -1,10 +1,10 @@
 {
-    "name": "parrot-skill",
+    "name": "gisearch-skill",
     "description": "Parrot skill",
     "version": "0.0.1",
     "private": true,
     "license": "MIT",
-    "author": "Pirim",
+    "author": "Oleg",
     "engines": {
         "node": ">=6.9.1"
     },
