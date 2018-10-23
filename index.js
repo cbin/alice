@@ -7,13 +7,13 @@ app.use(express.json());
 
 app.post('/', function (req, res) {
 
-  if (req.body.request.command == "no text" && req.body.request.markup.dangerous_context == "true")
+  if (req.body.request.command == "no text" )
   {
     res.json({
       version: req.body.version,
       session: req.body.session,
       response: {
-        text: "Не матерись",
+        text: "",
         end_session: false,
       },
     });
